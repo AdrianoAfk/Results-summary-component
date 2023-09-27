@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Oxanium:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./src/style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="lado-esquerdo">
+      <div class="titulo-esquerdo">Your Result</div>
+      <div id="circulo">
+        <div class="numero">76</div>
+        <div class="texto-100">of 100</div>
+      </div>
+
+      <div class="texto-great">Great</div>
+      <div class="texto">You scored higher than 65% of the people who have taken these tests.</div>
+    </div>
+
+    <div id="lado-direito">
+      <div class="titulo-direito">Summary</div>
+      <div id="resultados">
+        <div class="resultado reaction">
+          <div><img src="./assets/images/icon-reaction.svg" alt="imagem de raio"> Reaction</div>
+          <div class="numero">80 <div class="numero-100">/ 100</div></div>
+        </div>
+
+        <div class="resultado memory">
+          <div><img src="./assets/images/icon-memory.svg" alt="imagem de cérebro"> Memory</div>
+          <div class="numero">92 <div class="numero-100">/ 100</div></div>
+        </div>
+
+        <div class="resultado verbal">
+          <div><img src="./assets/images/icon-verbal.svg" alt="imagem de balão de fala"> Verbal</div>
+          <div class="numero"> 61 <div class="numero-100">/ 100</div></div>
+        </div>
+
+        <div class="resultado visual">
+          <div><img src="./assets/images/icon-visual.svg" alt="imagem de olho"> Visual</div>
+          <div class="numero">72 <div class="numero-100">/ 100</div></div>
+        </div>
+      </div>
+      <div id="botao-div">
+        <button class="botao">Continue</button>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/AdrianoAfk">AdrianoAfk</a>.
+  </div>
+</body>
+
+</html>
